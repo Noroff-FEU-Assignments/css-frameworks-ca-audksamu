@@ -1,0 +1,29 @@
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25em;
+    font-weight: 700;
+    font-style: italic;
+    color: $primary !important;
+}
+
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $dark;
+    font-size: 1em;
+}
+
+.navbar-collapse {
+    z-index: 1;
+}
+
+.nav-link:hover {
+   color: $primary-colour-hover !important;
+}
+
+.navbar__background--color {
+    background-color: #EFEFEF;
+}

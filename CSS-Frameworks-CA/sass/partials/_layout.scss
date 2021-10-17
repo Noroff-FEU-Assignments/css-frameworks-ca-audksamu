@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    background-image: radial-gradient(circle, #E5E5E5, #F3F3F3, #FFFFFF);
+    color: $secondary;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    font-weight: 300;
+    margin-top: 2rem;
+    padding: 0.5em;
+}
+
+footer a:hover {
+    color: $primary-colour-hover;
+    text-decoration: none;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
